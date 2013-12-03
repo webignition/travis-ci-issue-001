@@ -4,6 +4,7 @@ php:
 
 before_script:
   - php -v
+  - which php
   - ./travis/demo.sh
   
 script:
