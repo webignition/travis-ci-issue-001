@@ -4,6 +4,7 @@ php:
 
 before_script:
   - php -v
+  - ./travis/demo.sh
   
 script:
   - echo "Hello World!"    
